@@ -63,6 +63,14 @@ body {
     color: white;
 }
 
+.btn-ios:hover{
+    background-color: #89e6e4;
+}
+
+.btn-mac:hover{
+    background-color: #d091e9;
+}
+
 .snippets {
     padding: 80px 0;
     text-align: center;
@@ -275,7 +283,8 @@ body {
 .footer .footer-content1,
 .footer .footer-content2 {
     display: flex;
-    gap: 30px;
+    gap: 2.94rem;
+    flex-direction: column;
 }
 
 .footer .footer-content a {
