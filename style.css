@@ -317,3 +317,230 @@ body {
 .social-icon:hover img {
     filter: brightness(0) saturate(100%) invert(77%) sepia(26%) saturate(1217%) hue-rotate(134deg) brightness(96%) contrast(84%);
 }
+
+/* Tablet screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header {
+        padding: 60px 0;
+    }
+
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    .snippets-section {
+        padding: 60px 0;
+    }
+
+    .snippets-section h2 {
+        font-size: 2rem;
+    }
+
+    .snippets-section .image-place {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    .snippets-section .image-place img {
+        margin-left: 0;
+    }
+
+    .features {
+        max-width: 80%;
+    }
+
+    .access {
+        padding: 60px 0;
+    }
+
+    .access h2 {
+        font-size: 1.8rem;
+    }
+
+    .workflow {
+        padding: 60px 0;
+    }
+
+    .workflow h2 {
+        font-size: 1.8rem;
+    }
+
+    .workflow-card {
+        max-width: 45%;
+        margin: 15px;
+    }
+
+    .download {
+        padding: 60px 0;
+    }
+
+    .download h2 {
+        font-size: 1.8rem;
+    }
+
+    .footer .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .footer .footer-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .footer .footer-content1,
+    .footer .footer-content2 {
+        gap: 1.5rem;
+        align-items: center;
+    }
+}
+
+/* Mobile screens (max-width: 480px) */
+@media (max-width: 480px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .header {
+        padding: 40px 0;
+    }
+
+    .header .logo {
+        width: 100px;
+        height: 100px;
+    }
+
+    .header h1 {
+        font-size: 1.8rem;
+    }
+
+    .header p {
+        font-size: 0.9rem;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        margin: 5px;
+        font-size: 0.9rem;
+    }
+
+    .snippets-section {
+        padding: 40px 0;
+    }
+
+    .snippets-section h2 {
+        font-size: 1.8rem;
+    }
+
+    .snippets-section p {
+        font-size: 0.9rem;
+        margin-bottom: 40px;
+    }
+
+    .snippets-section .image-place {
+        max-width: 100%;
+    }
+
+    .snippets-section .image-place img {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .features {
+        max-width: 100%;
+    }
+
+    .feature-item h3 {
+        font-size: 1.3rem;
+    }
+
+    .feature-item p {
+        font-size: 0.9rem;
+    }
+
+    .access {
+        padding: 40px 0;
+    }
+
+    .access h2 {
+        font-size: 1.5rem;
+    }
+
+    .access p {
+        font-size: 0.9rem;
+    }
+
+    .workflow {
+        padding: 40px 0;
+    }
+
+    .workflow h2 {
+        font-size: 1.5rem;
+    }
+
+    .workflow p {
+        font-size: 0.9rem;
+    }
+
+    .workflow-card {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    .workflow-card h3 {
+        font-size: 1rem;
+    }
+
+    .partners {
+        padding: 20px 0;
+    }
+
+    .partners .logo-place {
+        margin: 10px;
+        height: 30px;
+    }
+
+    .download {
+        padding: 40px 0;
+    }
+
+    .download h2 {
+        font-size: 1.5rem;
+    }
+
+    .download p {
+        font-size: 0.9rem;
+    }
+
+    .footer {
+        padding: 20px 0;
+    }
+
+    .footer .logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .footer .footer-content a {
+        font-size: 0.9rem;
+    }
+
+    .footer .social-links {
+        gap: 10px;
+    }
+
+    .footer .social-icon img {
+        width: 20px;
+        height: 20px;
+    }
+}
