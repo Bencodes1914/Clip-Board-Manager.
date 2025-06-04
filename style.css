@@ -188,6 +188,11 @@ body {
     margin-bottom: 20px;
 }
 
+.access .image-place img{
+    width: fit-content;
+    height: fit-content;
+}
+
 .workflow {
     padding: 80px 0;
     text-align: center;
@@ -326,6 +331,13 @@ body {
 
     .header {
         padding: 60px 0;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .header .logo {
+        width: 100px;
+        height: 100px;
     }
 
     .header h1 {
@@ -334,6 +346,12 @@ body {
 
     .header p {
         font-size: 1rem;
+        margin-bottom: 20px;
+    }
+
+    .btn {
+        display: inline-block;
+        margin: 5px 10px;
     }
 
     .snippets-section {
@@ -344,17 +362,27 @@ body {
         font-size: 2rem;
     }
 
+    .snippets-section p {
+        font-size: 1rem;
+    }
+
     .snippets-section .image-place {
-        max-width: 60%;
+        max-width: 70%;
         margin: 0 auto;
     }
 
     .snippets-section .image-place img {
         margin-left: 0;
+        width: 100%;
     }
 
     .features {
-        max-width: 80%;
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .feature-item {
+        margin: 20px 0;
     }
 
     .access {
@@ -365,6 +393,10 @@ body {
         font-size: 1.8rem;
     }
 
+    .access p {
+        font-size: 1rem;
+    }
+
     .workflow {
         padding: 60px 0;
     }
@@ -373,9 +405,18 @@ body {
         font-size: 1.8rem;
     }
 
+    .workflow-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .workflow-card {
-        max-width: 45%;
-        margin: 15px;
+        max-width: 80%;
+        margin: 15px 0;
+    }
+
+    .partners .logo-place {
+        margin: 10px;
     }
 
     .download {
@@ -384,6 +425,10 @@ body {
 
     .download h2 {
         font-size: 1.8rem;
+    }
+
+    .download p {
+        font-size: 1rem;
     }
 
     .footer .container {
@@ -412,26 +457,31 @@ body {
 
     .header {
         padding: 40px 0;
+        background-size: cover;
+        background-position: center;
     }
 
     .header .logo {
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
     }
 
     .header h1 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .header p {
         font-size: 0.9rem;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .btn {
-        padding: 10px 20px;
-        margin: 5px;
+        display: block; /* Stack buttons vertically */
+        width: 80%;
+        margin: 10px auto;
+        text-align: center;
         font-size: 0.9rem;
+        padding: 12px 20px;
     }
 
     .snippets-section {
@@ -439,12 +489,12 @@ body {
     }
 
     .snippets-section h2 {
-        font-size: 1.8rem;
+        font-size: 1.5rem;
     }
 
     .snippets-section p {
         font-size: 0.9rem;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .snippets-section .image-place {
@@ -461,7 +511,7 @@ body {
     }
 
     .feature-item h3 {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
 
     .feature-item p {
@@ -478,6 +528,10 @@ body {
 
     .access p {
         font-size: 0.9rem;
+    }
+
+    .access .image-place {
+        margin-bottom: 15px;
     }
 
     .workflow {
@@ -506,7 +560,7 @@ body {
     }
 
     .partners .logo-place {
-        margin: 10px;
+        margin: 5px;
         height: 30px;
     }
 
